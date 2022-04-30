@@ -33,7 +33,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: index.html');
+header('Location: https://glendonng.netlify.app/');
 
 
 // Function to validate against any email injection attempts
